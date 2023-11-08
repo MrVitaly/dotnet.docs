@@ -24,7 +24,7 @@ In C#, parameters to methods are *passed by value*, and return values are *retur
 
 The `ref`, `in`, `ref readonly`, or `out` modifier indicates that the argument is *passed by reference*. A *reference* to the storage location is passed to the method. Adding `ref` to the method signature means the return value is *returned by reference*. A *reference* to the storage location is the return value.
 
-You can also use *ref assignment* to have a variable refer to another variable. A typical assignment copies the *value* of the right hand side to the variable on the left hand side of the assignment. A *ref assignment* copies the memory location of the variable on the right hand side to the variable on the left hand side. The `ref` now refers to the original variable:
+You can also use *ref assignment* to have a variable refer to another variable. A typical assignment copies the *value* of the right-hand side to the variable on the left-hand side of the assignment. A *ref assignment* copies the memory location of the variable on the right-hand side to the variable on the left-hand side. The `ref` now refers to the original variable:
 
 :::code language="csharp" source="./snippets/ref-safety/Program.cs" id="RefAssignment":::
 
